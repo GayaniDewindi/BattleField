@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReaduToWeponsController">
+   <children>
+      <Label alignment="BOTTOM_LEFT" contentDisplay="CENTER" layoutX="129.0" layoutY="33.0" prefHeight="36.0" prefWidth="334.0" text="Ready Your Wepons" textFill="#c60132">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Pane layoutX="29.0" layoutY="109.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #8395a7;">
+         <children>
+            <Label contentDisplay="BOTTOM" layoutX="51.0" layoutY="14.0" prefHeight="27.0" prefWidth="96.0" text="   Player A" textFill="#290d86" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <GridPane layoutX="24.0" layoutY="41.0" prefHeight="151.0" prefWidth="159.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="129.0" minWidth="10.0" prefWidth="129.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="88.0" minWidth="10.0" prefWidth="30.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label prefHeight="17.0" prefWidth="61.0" text="   T - 56" textFill="#d00c0c">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="61.0" text="  Tank" textFill="#d00c0c" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="20.0" prefWidth="101.0" text="  Multi Burrel" textFill="#d00c0c" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="61.0" text="  Pistol" textFill="#d00c0c" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="61.0" text="  Bomb" textFill="#d00c0c" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="T_56A" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionT_56A" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" />
+                  <CheckBox fx:id="TankA" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionTankA" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <CheckBox fx:id="Multi_Burrel" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionMulti_BurrelA" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <CheckBox fx:id="PistolA" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionPistolA" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <CheckBox fx:id="BombA" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionBombA" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+      <Pane layoutX="353.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #8395a7;">
+         <children>
+            <Label layoutX="61.0" layoutY="14.0" prefHeight="27.0" prefWidth="78.0" text="Player B" textFill="#151078" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <GridPane layoutX="21.0" layoutY="41.0" prefHeight="151.0" prefWidth="159.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="129.0" minWidth="10.0" prefWidth="129.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="88.0" minWidth="10.0" prefWidth="30.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label prefHeight="17.0" prefWidth="61.0" text="   T - 56" textFill="#d00c0c">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="61.0" text="  Tank" textFill="#d00c0c" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="20.0" prefWidth="101.0" text="  Multi Burrel" textFill="#d00c0c" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="61.0" text="  Pistol" textFill="#d00c0c" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="61.0" text="  Bomb" textFill="#d00c0c" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="T_56B" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionT_56B" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" />
+                  <CheckBox fx:id="TankB" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionTankB" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <CheckBox fx:id="Multi_BurrelB" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionMulti_BurrelB" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <CheckBox fx:id="PistolB" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionPistolB" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <CheckBox fx:id="BombB" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#OnActionBombB" prefHeight="14.0" prefWidth="0.0" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+      <Button layoutX="209.0" layoutY="326.0" mnemonicParsing="false" onAction="#onActionBattleStart" prefHeight="27.0" prefWidth="175.0" style="-fx-background-color: green; -fx-background-radius: 10;" text="Battle Start" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
